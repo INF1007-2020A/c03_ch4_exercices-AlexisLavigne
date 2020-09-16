@@ -1,15 +1,16 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
 0/1 | Compte des occurences d'un caractère
 0/1 | Compte du nombre de mots dans une phrase
 1/1 | Parité du nombre de caractères
-0/1 | Retrait du 3e caractère
+1/1 | Retrait du 3e caractère
 0/1 | Remplacement d'un caractère
-1/5 | **Total**
+2/5 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 4)
