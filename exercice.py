@@ -8,12 +8,11 @@ def is_even_len(string: str) -> bool:
 
 
 def remove_third_char(string: str) -> str:
-    supprime = 1
-    return supprime
+    return string[:2] + string[3:]
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    return ""
+    return string[:6] + "z" + string[7:]
 
 
 def get_nb_char(string: str, char: str) -> int:
