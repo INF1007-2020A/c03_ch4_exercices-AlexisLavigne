@@ -16,8 +16,7 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 
 
 def get_nb_char(string: str, char: str) -> int:
-    nb_char = len(string)
-    return nb_char
+    return len(string)
 
 
 def get_nb_words(sentence: str) -> int:
