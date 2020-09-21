@@ -32,7 +32,13 @@ def get_nb_char(string: str, char: str) -> int:
 
 def get_nb_words(sentence: str) -> int:
     return len(sentence.split(" "))
-
+#    count = 0
+#   if(sentence) :
+#       count = 1
+#    for char in sentence :
+#       if(char == ' ') :
+#           count += 1
+#   return count
 
 
 def main() -> None:
