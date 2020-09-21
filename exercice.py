@@ -19,12 +19,20 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 
 
 def get_nb_char(string: str, char: str) -> int:
-    for "l" in string
-        print(1)
+    #return string.count(char)
+    if char not in string:
+        return 0
+    else:
+        counter = 0
+        for c in string:
+            if c == char:
+                counter += 1
+    return counter
 
 
 def get_nb_words(sentence: str) -> int:
-    return 1
+    return len(sentence.split())
+
 
 
 def main() -> None:
